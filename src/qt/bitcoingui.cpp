@@ -857,7 +857,7 @@ void BitcoinGUI::showHelpMessageClicked()
 
 void BitcoinGUI::webmainActionClicked()
 {
-	QDesktopServices::openUrl(QUrl("https://www.electraproject.org"));
+	QDesktopServices::openUrl(QUrl("http://electracore.weebly.com"));
 }
 void BitcoinGUI::facebookActionClicked()
 {
@@ -869,7 +869,7 @@ void BitcoinGUI::twitterActionClicked()
 }
 void BitcoinGUI::discordActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://discordapp.com/invite/B8F7Jdv"));
+        QDesktopServices::openUrl(QUrl("https://discord.gg/wGSDnRPShe"));
 }
 void BitcoinGUI::telegramActionClicked()
 {
@@ -885,11 +885,11 @@ void BitcoinGUI::redditActionClicked()
 }
 void BitcoinGUI::exchangesActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://electraproject.org/exchanges/"));
+        QDesktopServices::openUrl(QUrl("https://coinmarketcap.com/currencies/electra/markets/"));
 }
 void BitcoinGUI::electraBlockExplorerActionClicked()
 {
-        QDesktopServices::openUrl(QUrl("https://www.electraexplorer.info/"));
+        QDesktopServices::openUrl(QUrl("https://eca.ccore.online/"));
 }
 void BitcoinGUI::cmcActionClicked()
 {
@@ -897,7 +897,7 @@ void BitcoinGUI::cmcActionClicked()
 }
 void BitcoinGUI::githubActionClicked()
 {
-	QDesktopServices::openUrl(QUrl("https://github.com/Electra-project/"));
+	QDesktopServices::openUrl(QUrl("https://github.com/electra01/electra-core"));
 }
 
 #ifdef ENABLE_WALLET
